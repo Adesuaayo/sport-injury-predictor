@@ -9,7 +9,7 @@ import joblib
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, roc_auc_score, roc_curve
 
 # --- ADD IMAGE AT THE TOP ---
-st.image("header_image.png", use_column_width=True)
+st.image("header_image.png", use_container_width=True)
 
 # Title and introduction
 st.title("🏋️‍♂️ Sport Injury Risk Predictor")
